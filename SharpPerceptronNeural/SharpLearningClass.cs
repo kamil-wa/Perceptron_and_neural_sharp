@@ -118,7 +118,7 @@ namespace SharpPerceptronNeural
                     learningRate: 0.001);
 
             var model = learner.Learn(observations, targets, testingSet, testingTargets);
-
+            model.Save(() => new StreamWriter(@".\neuralnet.xml"));
             var predictions = model.Predict(testingObservations);
 
             Console.WriteLine("Trening zakończony");
@@ -198,13 +198,12 @@ namespace SharpPerceptronNeural
                     .Append(predictionsForTestingSet[i] != testingTargets[i] ? " err" : " OK")
                     .ToString());
             }
-            Console.ReadLine();
+            Console.ReadLine();           
         }
 
         public static List<Wine> UploadWineData(string path)
         {
             List<Wine> irisFlowers = new List<Wine>();
-            Console.WriteLine(path);
             if (File.Exists(path))
             {
                 string[] lines = File.ReadAllLines(path);
