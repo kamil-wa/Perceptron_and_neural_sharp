@@ -78,7 +78,7 @@ namespace SharpPerceptronNeural
                 p.weights = weights;
 
                 //Wczytanie wartości a i b dla prostej
-                Console.WriteLine("Wpisz wartości treningu funkcji prostej ax + b: ");
+                Console.WriteLine("Wpisz wartości a ora b dla prostej ax + b: (pierwsza liczba druga liczba)");
                 string[] abStrings = Console.ReadLine().Split(' ');
                 double a = double.Parse(abStrings[0]);
                 double b = double.Parse(abStrings[1]);
@@ -208,6 +208,8 @@ namespace SharpPerceptronNeural
                     }
                     epoch++;
                 } while (off);
+                Console.WriteLine();
+                results.WriteLine();
                 Console.WriteLine("Program stworzony przez: Arkadiusz Józefczak, Bartosz Jurczyk i Kamil Wątor ");
                 results.WriteLine("Program stworzony przez: Arkadiusz Józefczak, Bartosz Jurczyk i Kamil Wątor ");
                 Console.WriteLine();
