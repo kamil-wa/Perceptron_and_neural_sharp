@@ -14,9 +14,9 @@
           <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="7" i:type="d6p1:DenseVectorStorageOffloat">
             <d6p1:Length>3</d6p1:Length>
             <d6p1:Data z:Id="8" z:Size="3">
-              <d3p1:float>-1.4352899</d3p1:float>
-              <d3p1:float>-1.0959396</d3p1:float>
-              <d3p1:float>1.1806351</d3p1:float>
+              <d3p1:float>-1.4268596</d3p1:float>
+              <d3p1:float>-1.0875839</d3p1:float>
+              <d3p1:float>1.1724895</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
           <_length xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">3</_length>
@@ -30,9 +30,9 @@
             <d6p1:RowCount>1</d6p1:RowCount>
             <d6p1:ColumnCount>3</d6p1:ColumnCount>
             <d6p1:Data z:Id="11" z:Size="3">
-              <d3p1:float>7.4482064</d3p1:float>
-              <d3p1:float>25.855661</d3p1:float>
-              <d3p1:float>37.648216</d3p1:float>
+              <d3p1:float>-0.604423</d3p1:float>
+              <d3p1:float>17.409565</d3p1:float>
+              <d3p1:float>29.88152</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
           <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">3</_columnCount>
@@ -46,42 +46,42 @@
             <d6p1:RowCount>12</d6p1:RowCount>
             <d6p1:ColumnCount>3</d6p1:ColumnCount>
             <d6p1:Data z:Id="14" z:Size="36">
-              <d3p1:float>-0.3607724</d3p1:float>
-              <d3p1:float>0.10298062</d3p1:float>
-              <d3p1:float>0.50036824</d3p1:float>
-              <d3p1:float>-0.20906168</d3p1:float>
-              <d3p1:float>0.13846043</d3p1:float>
-              <d3p1:float>-1.0140189</d3p1:float>
-              <d3p1:float>0.9195743</d3p1:float>
-              <d3p1:float>-0.20046572</d3p1:float>
-              <d3p1:float>0.09916477</d3p1:float>
-              <d3p1:float>-0.2980671</d3p1:float>
-              <d3p1:float>0.13692866</d3p1:float>
-              <d3p1:float>0.13669166</d3p1:float>
-              <d3p1:float>0.3241261</d3p1:float>
-              <d3p1:float>0.016944539</d3p1:float>
-              <d3p1:float>1.2564293</d3p1:float>
-              <d3p1:float>-0.24348667</d3p1:float>
-              <d3p1:float>0.13517067</d3p1:float>
-              <d3p1:float>-0.9138077</d3p1:float>
-              <d3p1:float>1.5294921</d3p1:float>
-              <d3p1:float>0.8591451</d3p1:float>
-              <d3p1:float>0.36218914</d3p1:float>
-              <d3p1:float>0.099851936</d3p1:float>
-              <d3p1:float>1.0804284</d3p1:float>
-              <d3p1:float>1.119207</d3p1:float>
-              <d3p1:float>-0.112013526</d3p1:float>
-              <d3p1:float>0.14963104</d3p1:float>
-              <d3p1:float>-0.6149551</d3p1:float>
-              <d3p1:float>0.27568495</d3p1:float>
-              <d3p1:float>0.26192608</d3p1:float>
-              <d3p1:float>0.014353914</d3p1:float>
-              <d3p1:float>-1.2100446</d3p1:float>
-              <d3p1:float>-0.464948</d3p1:float>
-              <d3p1:float>0.499392</d3p1:float>
-              <d3p1:float>0.12667423</d3p1:float>
-              <d3p1:float>-0.030477295</d3p1:float>
-              <d3p1:float>-0.9207378</d3p1:float>
+              <d3p1:float>-0.3627742</d3p1:float>
+              <d3p1:float>0.1026867</d3p1:float>
+              <d3p1:float>0.49569628</d3p1:float>
+              <d3p1:float>-0.21059558</d3p1:float>
+              <d3p1:float>0.13692021</d3p1:float>
+              <d3p1:float>-1.0127519</d3p1:float>
+              <d3p1:float>0.9206505</d3p1:float>
+              <d3p1:float>-0.2097672</d3p1:float>
+              <d3p1:float>0.098008566</d3p1:float>
+              <d3p1:float>-0.29898122</d3p1:float>
+              <d3p1:float>0.13192219</d3p1:float>
+              <d3p1:float>0.13514027</d3p1:float>
+              <d3p1:float>0.3222172</d3p1:float>
+              <d3p1:float>0.016864631</d3p1:float>
+              <d3p1:float>1.2518172</d3p1:float>
+              <d3p1:float>-0.2450811</d3p1:float>
+              <d3p1:float>0.13366328</d3p1:float>
+              <d3p1:float>-0.912683</d3p1:float>
+              <d3p1:float>1.5302259</d3p1:float>
+              <d3p1:float>0.8500147</d3p1:float>
+              <d3p1:float>0.36097103</d3p1:float>
+              <d3p1:float>0.099886194</d3p1:float>
+              <d3p1:float>1.0751917</d3p1:float>
+              <d3p1:float>1.1173726</d3p1:float>
+              <d3p1:float>-0.10989103</d3p1:float>
+              <d3p1:float>0.14992592</d3p1:float>
+              <d3p1:float>-0.6101305</d3p1:float>
+              <d3p1:float>0.277492</d3p1:float>
+              <d3p1:float>0.26364535</d3p1:float>
+              <d3p1:float>0.013439472</d3p1:float>
+              <d3p1:float>-1.2105751</d3p1:float>
+              <d3p1:float>-0.45560643</d3p1:float>
+              <d3p1:float>0.50082076</d3p1:float>
+              <d3p1:float>0.12685145</d3p1:float>
+              <d3p1:float>-0.025028823</d3p1:float>
+              <d3p1:float>-0.9186897</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
           <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">3</_columnCount>
@@ -102,18 +102,18 @@
             <d6p1:RowCount>1</d6p1:RowCount>
             <d6p1:ColumnCount>12</d6p1:ColumnCount>
             <d6p1:Data z:Id="17" z:Size="12">
-              <d3p1:float>12.99</d3p1:float>
-              <d3p1:float>1.67</d3p1:float>
-              <d3p1:float>2.6</d3p1:float>
-              <d3p1:float>30</d3p1:float>
-              <d3p1:float>139</d3p1:float>
-              <d3p1:float>3.3</d3p1:float>
-              <d3p1:float>2.89</d3p1:float>
-              <d3p1:float>0.21</d3p1:float>
-              <d3p1:float>1.96</d3p1:float>
-              <d3p1:float>3.35</d3p1:float>
-              <d3p1:float>1.31</d3p1:float>
-              <d3p1:float>3.5</d3p1:float>
+              <d3p1:float>14.13</d3p1:float>
+              <d3p1:float>4.1</d3p1:float>
+              <d3p1:float>2.74</d3p1:float>
+              <d3p1:float>24.5</d3p1:float>
+              <d3p1:float>96</d3p1:float>
+              <d3p1:float>2.05</d3p1:float>
+              <d3p1:float>0.76</d3p1:float>
+              <d3p1:float>0.56</d3p1:float>
+              <d3p1:float>1.35</d3p1:float>
+              <d3p1:float>9.2</d3p1:float>
+              <d3p1:float>0.61</d3p1:float>
+              <d3p1:float>1.6</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
           <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">12</_columnCount>
@@ -145,9 +145,9 @@
             <d6p1:RowCount>1</d6p1:RowCount>
             <d6p1:ColumnCount>3</d6p1:ColumnCount>
             <d6p1:Data z:Id="24" z:Size="3">
-              <d3p1:float>7.4482064</d3p1:float>
-              <d3p1:float>25.855661</d3p1:float>
-              <d3p1:float>37.648216</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>17.409565</d3p1:float>
+              <d3p1:float>29.88152</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
           <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">3</_columnCount>
@@ -168,7 +168,7 @@
           <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="28" i:type="d6p1:DenseVectorStorageOffloat">
             <d6p1:Length>2</d6p1:Length>
             <d6p1:Data z:Id="29" z:Size="2">
-              <d3p1:float>-1.3225328</d3p1:float>
+              <d3p1:float>-1.3142565</d3p1:float>
               <d3p1:float>-0.33570457</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
@@ -183,8 +183,8 @@
             <d6p1:RowCount>1</d6p1:RowCount>
             <d6p1:ColumnCount>2</d6p1:ColumnCount>
             <d6p1:Data z:Id="32" z:Size="2">
-              <d3p1:float>2.6552944</d3p1:float>
-              <d3p1:float>-14.027317</d3p1:float>
+              <d3p1:float>-1.7205027</d3p1:float>
+              <d3p1:float>-13.055301</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
           <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">2</_columnCount>
@@ -198,9 +198,9 @@
             <d6p1:RowCount>3</d6p1:RowCount>
             <d6p1:ColumnCount>2</d6p1:ColumnCount>
             <d6p1:Data z:Id="35" z:Size="6">
-              <d3p1:float>0.17218487</d3p1:float>
-              <d3p1:float>0.7913176</d3p1:float>
-              <d3p1:float>-0.47185984</d3p1:float>
+              <d3p1:float>0.1685203</d3p1:float>
+              <d3p1:float>0.78892636</d3p1:float>
+              <d3p1:float>-0.47323936</d3p1:float>
               <d3p1:float>0.677227</d3p1:float>
               <d3p1:float>-0.6911672</d3p1:float>
               <d3p1:float>-0.022979945</d3p1:float>
@@ -242,7 +242,7 @@
             <d6p1:RowCount>1</d6p1:RowCount>
             <d6p1:ColumnCount>2</d6p1:ColumnCount>
             <d6p1:Data z:Id="42" z:Size="2">
-              <d3p1:float>2.6552944</d3p1:float>
+              <d3p1:float>0</d3p1:float>
               <d3p1:float>0</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
@@ -264,9 +264,9 @@
           <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="46" i:type="d6p1:DenseVectorStorageOffloat">
             <d6p1:Length>3</d6p1:Length>
             <d6p1:Data z:Id="47" z:Size="3">
-              <d3p1:float>-5.8059077</d3p1:float>
-              <d3p1:float>2.0287237</d3p1:float>
-              <d3p1:float>6.4199543</d3p1:float>
+              <d3p1:float>-5.780088</d3p1:float>
+              <d3p1:float>2.0173419</d3p1:float>
+              <d3p1:float>6.3875</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
           <_length xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">3</_length>
@@ -280,9 +280,9 @@
             <d6p1:RowCount>1</d6p1:RowCount>
             <d6p1:ColumnCount>3</d6p1:ColumnCount>
             <d6p1:Data z:Id="50" z:Size="3">
-              <d3p1:float>-1.5835834</d3p1:float>
-              <d3p1:float>2.1797218</d3p1:float>
-              <d3p1:float>-7.25348</d3p1:float>
+              <d3p1:float>-5.780088</d3p1:float>
+              <d3p1:float>2.0173419</d3p1:float>
+              <d3p1:float>6.3875</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
           <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">3</_columnCount>
@@ -296,11 +296,11 @@
             <d6p1:RowCount>2</d6p1:RowCount>
             <d6p1:ColumnCount>3</d6p1:ColumnCount>
             <d6p1:Data z:Id="53" z:Size="6">
-              <d3p1:float>1.590153</d3p1:float>
+              <d3p1:float>1.5838615</d3p1:float>
               <d3p1:float>0.7915608</d3p1:float>
-              <d3p1:float>0.0568668</d3p1:float>
+              <d3p1:float>0.06065476</d3p1:float>
               <d3p1:float>-0.2538168</d3p1:float>
-              <d3p1:float>-5.1494985</d3p1:float>
+              <d3p1:float>-5.1209474</d3p1:float>
               <d3p1:float>0.89186656</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
@@ -326,9 +326,9 @@
             <d6p1:RowCount>1</d6p1:RowCount>
             <d6p1:ColumnCount>3</d6p1:ColumnCount>
             <d6p1:Data z:Id="57" z:Size="3">
-              <d3p1:float>0.02267879</d3p1:float>
-              <d3p1:float>0.977243</d3p1:float>
-              <d3p1:float>7.8201505E-05</d3p1:float>
+              <d3p1:float>5.1312422E-06</d3p1:float>
+              <d3p1:float>0.012491174</d3p1:float>
+              <d3p1:float>0.9875037</d3p1:float>
             </d6p1:Data>
           </d5p1:_x003C_Storage_x003E_k__BackingField>
           <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">3</_columnCount>

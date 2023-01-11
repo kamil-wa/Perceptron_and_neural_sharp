@@ -43,7 +43,7 @@ namespace SharpPerceptronNeural
                 targets[i] = refWine.ClassType;
             }
 
-            List<Wine> testingSetList = TakeRandomPartOfLearningSet(wines, 0.25);
+            List<Wine> testingSetList = TakeRandomPartOfLearningSet(wines, 0.20);
             F64Matrix testingSet = new F64Matrix(testingSetList.Count, amountOfAttributes);
             double[] testingTargets = new double[testingSetList.Count];
 
