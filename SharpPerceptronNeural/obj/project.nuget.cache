@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "0NUHcX09dPuA8BoWvnGyJu3ja6R7wwBTrizDG0K97aFL9+WCOBIY2NvA7Y+SXqhUKG8645AkUYH1pU67zqx1gQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arek\\source\\repos\\SharpPerceptronNeural\\SharpPerceptronNeural\\SharpPerceptronNeural.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arek\\.nuget\\packages\\mathnet.numerics\\4.8.1\\mathnet.numerics.4.8.1.nupkg.sha512",
+    "C:\\Users\\Arek\\.nuget\\packages\\mathnet.numerics.mkl.win\\2.3.0\\mathnet.numerics.mkl.win.2.3.0.nupkg.sha512",
+    "C:\\Users\\Arek\\.nuget\\packages\\sharplearning.common.interfaces\\0.31.8\\sharplearning.common.interfaces.0.31.8.nupkg.sha512",
+    "C:\\Users\\Arek\\.nuget\\packages\\sharplearning.containers\\0.31.8\\sharplearning.containers.0.31.8.nupkg.sha512",
+    "C:\\Users\\Arek\\.nuget\\packages\\sharplearning.inputoutput\\0.31.8\\sharplearning.inputoutput.0.31.8.nupkg.sha512",
+    "C:\\Users\\Arek\\.nuget\\packages\\sharplearning.neural\\0.31.8\\sharplearning.neural.0.31.8.nupkg.sha512"
+  ],
+  "logs": []
+}

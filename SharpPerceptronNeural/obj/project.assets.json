@@ -1,0 +1,238 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MathNet.Numerics/4.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        }
+      },
+      "MathNet.Numerics.MKL.Win/2.3.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "SharpLearning.Common.Interfaces/0.31.8": {
+        "type": "package",
+        "dependencies": {
+          "SharpLearning.Containers": "0.31.8"
+        },
+        "compile": {
+          "lib/netstandard2.0/SharpLearning.Common.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.Common.Interfaces.dll": {}
+        }
+      },
+      "SharpLearning.Containers/0.31.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SharpLearning.Containers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.Containers.dll": {}
+        }
+      },
+      "SharpLearning.InputOutput/0.31.8": {
+        "type": "package",
+        "dependencies": {
+          "SharpLearning.Containers": "0.31.8"
+        },
+        "compile": {
+          "lib/netstandard2.0/SharpLearning.InputOutput.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.InputOutput.dll": {}
+        }
+      },
+      "SharpLearning.Neural/0.31.8": {
+        "type": "package",
+        "dependencies": {
+          "MathNet.Numerics": "4.8.1",
+          "MathNet.Numerics.MKL.Win": "2.3.0",
+          "SharpLearning.Common.Interfaces": "0.31.8",
+          "SharpLearning.Containers": "0.31.8",
+          "SharpLearning.InputOutput": "0.31.8"
+        },
+        "compile": {
+          "lib/netstandard2.0/SharpLearning.Neural.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.Neural.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MathNet.Numerics/4.8.1": {
+      "sha512": "HK97Btmlx8WLioRpWpyO3kCpvm3y9n4WzgFDQxaxUP9zbScOxB6JevGyGydcDtVDDPC4Gtv4u/j7pQjK6N+sUA==",
+      "type": "package",
+      "path": "mathnet.numerics/4.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MathNet.Numerics.dll",
+        "lib/net40/MathNet.Numerics.xml",
+        "lib/net461/MathNet.Numerics.dll",
+        "lib/net461/MathNet.Numerics.xml",
+        "lib/netstandard1.3/MathNet.Numerics.dll",
+        "lib/netstandard1.3/MathNet.Numerics.xml",
+        "lib/netstandard2.0/MathNet.Numerics.dll",
+        "lib/netstandard2.0/MathNet.Numerics.xml",
+        "mathnet.numerics.4.8.1.nupkg.sha512",
+        "mathnet.numerics.nuspec"
+      ]
+    },
+    "MathNet.Numerics.MKL.Win/2.3.0": {
+      "sha512": "TyT+7fIpGTK0tVEuJy/vZjuR2hybe7NeDEfpbju7vV+lep2pe36o0MiX3BMxKRFq3Im6DW9lmEe9UFigMQdk0w==",
+      "type": "package",
+      "path": "mathnet.numerics.mkl.win/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MathNet.Numerics.MKL.Win.targets",
+        "build/x64/MathNet.Numerics.MKL.dll",
+        "build/x64/libiomp5md.dll",
+        "build/x86/MathNet.Numerics.MKL.dll",
+        "build/x86/libiomp5md.dll",
+        "license.txt",
+        "mathnet.numerics.mkl.win.2.3.0.nupkg.sha512",
+        "mathnet.numerics.mkl.win.nuspec",
+        "readme.txt"
+      ]
+    },
+    "SharpLearning.Common.Interfaces/0.31.8": {
+      "sha512": "S5orVVe47m4VhwxO5Er9nM+8PFktIfuV8Uobwi5ug9DlK4VpB3+FmVtyxLFCh1Qxlb1y9LIW6RyPu39kSG0TVw==",
+      "type": "package",
+      "path": "sharplearning.common.interfaces/0.31.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/SharpLearning.Common.Interfaces.dll",
+        "lib/net461/SharpLearning.Common.Interfaces.xml",
+        "lib/netstandard2.0/SharpLearning.Common.Interfaces.dll",
+        "lib/netstandard2.0/SharpLearning.Common.Interfaces.xml",
+        "sharplearning.common.interfaces.0.31.8.nupkg.sha512",
+        "sharplearning.common.interfaces.nuspec"
+      ]
+    },
+    "SharpLearning.Containers/0.31.8": {
+      "sha512": "eHqhtxxYEfIRDJ7PKLW3UFxTcYUZaLVGMdFRrZVD5oFaFF0G1Kz0RlPOdK94RNlRYMVTO7ckDEZbGRcpzmCLqw==",
+      "type": "package",
+      "path": "sharplearning.containers/0.31.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/SharpLearning.Containers.dll",
+        "lib/net461/SharpLearning.Containers.xml",
+        "lib/netstandard2.0/SharpLearning.Containers.dll",
+        "lib/netstandard2.0/SharpLearning.Containers.xml",
+        "sharplearning.containers.0.31.8.nupkg.sha512",
+        "sharplearning.containers.nuspec"
+      ]
+    },
+    "SharpLearning.InputOutput/0.31.8": {
+      "sha512": "sBXC3u5tkyTvIR9X3eds6nUwBxp7jhzvEh/8v3yjSFtwE5OWdNDWrKvUWGTGkopdU/Z2TGPPgN1XBKHp1P3ojA==",
+      "type": "package",
+      "path": "sharplearning.inputoutput/0.31.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/SharpLearning.InputOutput.dll",
+        "lib/net461/SharpLearning.InputOutput.xml",
+        "lib/netstandard2.0/SharpLearning.InputOutput.dll",
+        "lib/netstandard2.0/SharpLearning.InputOutput.xml",
+        "sharplearning.inputoutput.0.31.8.nupkg.sha512",
+        "sharplearning.inputoutput.nuspec"
+      ]
+    },
+    "SharpLearning.Neural/0.31.8": {
+      "sha512": "sx7qI24xp0LBRBIY/aCVrqCjEqet3A6WMyXxdt952yOeR7XEpHsoX3futda5d0WfsEcGw3D+Rww1D43WTd38DA==",
+      "type": "package",
+      "path": "sharplearning.neural/0.31.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/SharpLearning.Neural.dll",
+        "lib/net461/SharpLearning.Neural.xml",
+        "lib/netstandard2.0/SharpLearning.Neural.dll",
+        "lib/netstandard2.0/SharpLearning.Neural.xml",
+        "sharplearning.neural.0.31.8.nupkg.sha512",
+        "sharplearning.neural.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "SharpLearning.Neural >= 0.31.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Arek\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Arek\\source\\repos\\SharpPerceptronNeural\\SharpPerceptronNeural\\SharpPerceptronNeural.csproj",
+      "projectName": "SharpPerceptronNeural",
+      "projectPath": "C:\\Users\\Arek\\source\\repos\\SharpPerceptronNeural\\SharpPerceptronNeural\\SharpPerceptronNeural.csproj",
+      "packagesPath": "C:\\Users\\Arek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Arek\\source\\repos\\SharpPerceptronNeural\\SharpPerceptronNeural\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Arek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "SharpLearning.Neural": {
+            "target": "Package",
+            "version": "[0.31.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

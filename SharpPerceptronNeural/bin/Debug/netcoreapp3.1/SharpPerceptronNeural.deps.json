@@ -1,0 +1,122 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SharpPerceptronNeural/1.0.0": {
+        "dependencies": {
+          "SharpLearning.Neural": "0.31.8"
+        },
+        "runtime": {
+          "SharpPerceptronNeural.dll": {}
+        }
+      },
+      "MathNet.Numerics/4.8.1": {
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "4.8.1.0",
+            "fileVersion": "4.8.1.0"
+          }
+        }
+      },
+      "MathNet.Numerics.MKL.Win/2.3.0": {},
+      "SharpLearning.Common.Interfaces/0.31.8": {
+        "dependencies": {
+          "SharpLearning.Containers": "0.31.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.Common.Interfaces.dll": {
+            "assemblyVersion": "0.31.8.0",
+            "fileVersion": "0.31.8.0"
+          }
+        }
+      },
+      "SharpLearning.Containers/0.31.8": {
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.Containers.dll": {
+            "assemblyVersion": "0.31.8.0",
+            "fileVersion": "0.31.8.0"
+          }
+        }
+      },
+      "SharpLearning.InputOutput/0.31.8": {
+        "dependencies": {
+          "SharpLearning.Containers": "0.31.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.InputOutput.dll": {
+            "assemblyVersion": "0.31.8.0",
+            "fileVersion": "0.31.8.0"
+          }
+        }
+      },
+      "SharpLearning.Neural/0.31.8": {
+        "dependencies": {
+          "MathNet.Numerics": "4.8.1",
+          "MathNet.Numerics.MKL.Win": "2.3.0",
+          "SharpLearning.Common.Interfaces": "0.31.8",
+          "SharpLearning.Containers": "0.31.8",
+          "SharpLearning.InputOutput": "0.31.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.Neural.dll": {
+            "assemblyVersion": "0.31.8.0",
+            "fileVersion": "0.31.8.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SharpPerceptronNeural/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathNet.Numerics/4.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HK97Btmlx8WLioRpWpyO3kCpvm3y9n4WzgFDQxaxUP9zbScOxB6JevGyGydcDtVDDPC4Gtv4u/j7pQjK6N+sUA==",
+      "path": "mathnet.numerics/4.8.1",
+      "hashPath": "mathnet.numerics.4.8.1.nupkg.sha512"
+    },
+    "MathNet.Numerics.MKL.Win/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TyT+7fIpGTK0tVEuJy/vZjuR2hybe7NeDEfpbju7vV+lep2pe36o0MiX3BMxKRFq3Im6DW9lmEe9UFigMQdk0w==",
+      "path": "mathnet.numerics.mkl.win/2.3.0",
+      "hashPath": "mathnet.numerics.mkl.win.2.3.0.nupkg.sha512"
+    },
+    "SharpLearning.Common.Interfaces/0.31.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S5orVVe47m4VhwxO5Er9nM+8PFktIfuV8Uobwi5ug9DlK4VpB3+FmVtyxLFCh1Qxlb1y9LIW6RyPu39kSG0TVw==",
+      "path": "sharplearning.common.interfaces/0.31.8",
+      "hashPath": "sharplearning.common.interfaces.0.31.8.nupkg.sha512"
+    },
+    "SharpLearning.Containers/0.31.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eHqhtxxYEfIRDJ7PKLW3UFxTcYUZaLVGMdFRrZVD5oFaFF0G1Kz0RlPOdK94RNlRYMVTO7ckDEZbGRcpzmCLqw==",
+      "path": "sharplearning.containers/0.31.8",
+      "hashPath": "sharplearning.containers.0.31.8.nupkg.sha512"
+    },
+    "SharpLearning.InputOutput/0.31.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sBXC3u5tkyTvIR9X3eds6nUwBxp7jhzvEh/8v3yjSFtwE5OWdNDWrKvUWGTGkopdU/Z2TGPPgN1XBKHp1P3ojA==",
+      "path": "sharplearning.inputoutput/0.31.8",
+      "hashPath": "sharplearning.inputoutput.0.31.8.nupkg.sha512"
+    },
+    "SharpLearning.Neural/0.31.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sx7qI24xp0LBRBIY/aCVrqCjEqet3A6WMyXxdt952yOeR7XEpHsoX3futda5d0WfsEcGw3D+Rww1D43WTd38DA==",
+      "path": "sharplearning.neural/0.31.8",
+      "hashPath": "sharplearning.neural.0.31.8.nupkg.sha512"
+    }
+  }
+}
