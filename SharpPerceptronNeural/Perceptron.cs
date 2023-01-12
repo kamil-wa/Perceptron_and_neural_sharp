@@ -81,13 +81,5 @@ namespace SharpPerceptronNeural
 
             return L;
         }
-
-        public void testingPerceptron(int[][] inputData, double[] expectedOutputs)
-        {
-            for (int i = 0; i < inputData.Length; i++)
-            {
-                Console.WriteLine("Przewidywane wyjście: " + expectedOutputs[i] + ", rzeczywiste wyjście: " + calculateYt(inputData[i]));
-            }
-        }
     }
 }
