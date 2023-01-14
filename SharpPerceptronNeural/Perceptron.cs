@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace SharpPerceptronNeural
@@ -69,16 +70,47 @@ namespace SharpPerceptronNeural
         {
             Random rnd = new Random();
 
+
             int[][] L = new int[N][];
+
+            List<HashSet<int>> arr = new List<HashSet<int>>();
+
+            HashSet<List<int>> setk = new HashSet<List<int>>(); 
+
+            while(setk.Count != N)
+            {
+                List<int> k = new List<int>();
+                k.Add(1);
+                k.Add(rnd.Next(-10, 10));
+                k.Add(rnd.Next(-10, 10));
+                setk.Add(k);
+            }
+
+            int i = 0;
+            foreach (var j in setk)
+            {
+                L[i] = new int[] { j[0], j[1], j[2] };
+                i++;
+            }
+
+
+            /*
+            int x2 = 0;
+            int x1 = 0;
 
             for (int i = 0; i < N; i++)
             {
-                int x0 = 1;
-                int x1 = rnd.Next(-10, 10);
-                int x2 = rnd.Next(-10, 10);
-                L[i] = new int[] { x0, x1, x2 };
-            }
+                HashSet<int> set = new HashSet<int>();
 
+                    do
+                    {
+                        x1 = rnd.Next(-10, 10);
+                        x2 = rnd.Next(-10, 10);
+                    } while (!arr[x1].Add(x2));
+                    arr[x1].Add(x2);
+
+                L[i] = new int[] { 1, x1, x2};
+            }*/
             return L;
         }
     }

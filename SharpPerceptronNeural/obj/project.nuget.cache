@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "VMomLyUucOB1U2MoppknPqLP6iCaV5MqqMpWAwYrn2Nw27TzcH/7Sqionnt+zj5a0WtszPNZ1ckqshCvCKGSsw==",
+  "dgSpecHash": "sw40cfSCdzmFOWlo5ZvT5zbwtcQZfENMPYT8Fh10gwBWGxiRA3bFdbkVY6Lp4QhqZ94OoN/rgzf5opuU72JrCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arek\\source\\repos\\Perceptron_and_neural_sharp\\SharpPerceptronNeural\\SharpPerceptronNeural.csproj",
+  "projectFilePath": "D:\\Perceptron\\SharpPerceptronNeural\\SharpPerceptronNeural.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Arek\\.nuget\\packages\\mathnet.numerics\\4.8.1\\mathnet.numerics.4.8.1.nupkg.sha512",
-    "C:\\Users\\Arek\\.nuget\\packages\\mathnet.numerics.mkl.win\\2.3.0\\mathnet.numerics.mkl.win.2.3.0.nupkg.sha512",
-    "C:\\Users\\Arek\\.nuget\\packages\\sharplearning.common.interfaces\\0.31.8\\sharplearning.common.interfaces.0.31.8.nupkg.sha512",
-    "C:\\Users\\Arek\\.nuget\\packages\\sharplearning.containers\\0.31.8\\sharplearning.containers.0.31.8.nupkg.sha512",
-    "C:\\Users\\Arek\\.nuget\\packages\\sharplearning.inputoutput\\0.31.8\\sharplearning.inputoutput.0.31.8.nupkg.sha512",
-    "C:\\Users\\Arek\\.nuget\\packages\\sharplearning.neural\\0.31.8\\sharplearning.neural.0.31.8.nupkg.sha512"
+    "C:\\Users\\BartoszJurczyk\\.nuget\\packages\\mathnet.numerics\\4.8.1\\mathnet.numerics.4.8.1.nupkg.sha512",
+    "C:\\Users\\BartoszJurczyk\\.nuget\\packages\\mathnet.numerics.mkl.win\\2.3.0\\mathnet.numerics.mkl.win.2.3.0.nupkg.sha512",
+    "C:\\Users\\BartoszJurczyk\\.nuget\\packages\\sharplearning.common.interfaces\\0.31.8\\sharplearning.common.interfaces.0.31.8.nupkg.sha512",
+    "C:\\Users\\BartoszJurczyk\\.nuget\\packages\\sharplearning.containers\\0.31.8\\sharplearning.containers.0.31.8.nupkg.sha512",
+    "C:\\Users\\BartoszJurczyk\\.nuget\\packages\\sharplearning.inputoutput\\0.31.8\\sharplearning.inputoutput.0.31.8.nupkg.sha512",
+    "C:\\Users\\BartoszJurczyk\\.nuget\\packages\\sharplearning.neural\\0.31.8\\sharplearning.neural.0.31.8.nupkg.sha512"
   ],
   "logs": []
 }

@@ -53,6 +53,7 @@ namespace SharpPerceptronNeural
                         weights[i] = rnd.NextDouble() * (sn - fn) + fn;
                     }
 
+
                 }
                 else if (int.Parse(givenNumber) == 2)
                 {
@@ -136,27 +137,38 @@ namespace SharpPerceptronNeural
                     results.WriteLine();
                 }
 
+
                 //Pierwsza linia tabelki jako stałe zdanie
-                Console.WriteLine("Epoka    |    t    |    x0(t)    |    x1(t)    |    x2(t)    |    d(t)    |    w0(t)    |    w1(t)    |    w2(t)    |    s(t)    |    y(t)    |    ok?");
-                results.WriteLine("Epoka    |    t    |    x0(t)    |    x1(t)    |    x2(t)    |    d(t)    |    w0(t)    |    w1(t)    |    w2(t)    |    s(t)    |    y(t)    |    ok?");
+                //Console.WriteLine("Epoka    |    t    |    x0(t)    |    x1(t)    |    x2(t)    |    d(t)    |    w0(t)    |    w1(t)    |    w2(t)    |    s(t)    |    y(t)    |    ok?");
+                //results.WriteLine("Epoka    |    t    |    x0(t)    |    x1(t)    |    x2(t)    |    d(t)    |    w0(t)    |    w1(t)    |    w2(t)    |    s(t)    |    y(t)    |    ok?");
+
+                Console.WriteLine(String.Format("{0,10}|{1,10}|{2,10}|{3,10}|{4,10}|{5,10}|{6,10}|{7,10}|{8,10}|{9,10}|{10,10}|{11,10}",
+                "Epoka", "t", "x0(t)", "x1(t)", "x2(t)", "d(t)", "w0(t)", "w1(t)", "w2(t)", "s(t)", "y(t)", "ok?"));
+                Console.WriteLine();
+
+                results.WriteLine(String.Format("{0,10}|{1,10}|{2,10}|{3,10}|{4,10}|{5,10}|{6,10}|{7,10}|{8,10}|{9,10}|{10,10}|{11,10}",
+                "Epoka", "t", "x0(t)", "x1(t)", "x2(t)", "d(t)", "w0(t)", "w1(t)", "w2(t)", "s(t)", "y(t)", "ok?"));
+                results.WriteLine();
 
                 //Zainicjowanie 1 epocha i zmiennej przechowującej ilości ok na wyjściu, oraz boola wyłączającego trening
                 int epoch = 1;
                 int okOnOutput = 0;
                 bool off = false;
                 //Pętla treningu
+                int ileT = 0;
                 do
                 {
                     off = true;
                     for (int t = 0; t < N; t++)
                     {
+                        /*
                         Console.WriteLine();
                         results.WriteLine();
 
                         Console.Write("Epoch: " + epoch + "    |    ");
                         results.Write("Epoch: " + epoch + "    |    ");
-                        Console.Write("t: " + t + "    |    ");
-                        results.Write("t: " + t + "    |    ");
+                        Console.Write("t: " + ileT + "    |    ");
+                        results.Write("t: " + ileT + "    |    ");
 
                         Console.Write("x0(t) = " + inputData[t][0] + "    |    ");
                         results.Write(inputData[t][0] + "    |    ");
@@ -174,17 +186,18 @@ namespace SharpPerceptronNeural
                         results.Write(Math.Round(p.weights[1], 2) + "    |    ");
                         Console.Write("w2(t) = " + Math.Round(p.weights[2], 2) + "    |    ");
                         results.Write(Math.Round(p.weights[2], 2) + "    |    ");
-
+                        */
                         double signalOutput = p.calculateS(inputData[t]);
                         double output = p.calculateYt(inputData[t]);
 
                         p.trainingThePerceptron(inputData[t], expectedOutputs[t]);
 
+                        /*
                         Console.Write("s(t) = " + Math.Round(signalOutput, 2) + "    |    ");
                         results.Write(Math.Round(signalOutput, 2) + "    |    ");
                         Console.Write("y(t) = " + output + "    |    ");
                         results.Write(output + "    |    ");
-
+                        */
                         string okOrNotOk;
 
                         if (output == expectedOutputs[t])
@@ -198,13 +211,22 @@ namespace SharpPerceptronNeural
                             okOnOutput = 0;
                         }
 
-                        Console.Write("ok? " + okOrNotOk);
-                        results.Write(okOrNotOk);
 
                         if (okOnOutput == N)
                         {
                             off = false;
                         }
+
+
+                        Console.WriteLine(String.Format("{0,10}|{1,10}|{2,10}|{3,10}|{4,10}|{5,10}|{6,10}|{7,10}|{8,10}|{9,10}|{10,10}|{11,10}",
+                        epoch, ileT, inputData[t][0], inputData[t][1], inputData[t][2], expectedOutputs[t], Math.Round(p.weights[0], 2), Math.Round(p.weights[1], 2),
+                        Math.Round(p.weights[2], 2), Math.Round(signalOutput, 2), output, okOrNotOk));
+
+                        results.WriteLine(String.Format("{0,10}|{1,10}|{2,10}|{3,10}|{4,10}|{5,10}|{6,10}|{7,10}|{8,10}|{9,10}|{10,10}|{11,10}",
+                        epoch, ileT, inputData[t][0], inputData[t][1], inputData[t][2], expectedOutputs[t], Math.Round(p.weights[0], 2), Math.Round(p.weights[1], 2),
+                        Math.Round(p.weights[2], 2), Math.Round(signalOutput, 2), output, okOrNotOk));
+
+                        ileT++;
                     }
                     epoch++;
                 } while (off);

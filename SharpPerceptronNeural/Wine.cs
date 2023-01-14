@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
+
+
+
 namespace SharpPerceptronNeural
 {
     public class Wine
@@ -48,6 +51,7 @@ namespace SharpPerceptronNeural
 
         public void ReadFromString(string a)
         {
+
             string[] wineData = a.Split(',');
             if (wineData.Length < 14)
                 throw new InvalidDataException($"Wrong data string: {a}");
